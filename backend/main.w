@@ -26,7 +26,7 @@ new vite.Vite(
   root: "../frontend",
   publicEnv: {
     TITLE: "Wing + Vite + React",
-    WS_URL: broadcaster.url, // <-- This is new
+    WS_URL: broadcaster.url,
     API_URL: api.url,
   }
 );
