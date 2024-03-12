@@ -10,17 +10,10 @@ git clone git@github.com:winglang/guide-react-vite-websockets
 cd guide-react-vite-websockets
 ```
 
-Install deps:
-
-```sh
-npm install
-```
-
 Wing it:
 
 ```sh
-cd backend
-wing it
+npm i && npm run dev
 ```
 
 ## License

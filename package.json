@@ -4,5 +4,8 @@
       "backend",
       "frontend"
     ]
+  },
+  "scripts": {
+    "dev": "cd backend && wing it"
   }
 }
