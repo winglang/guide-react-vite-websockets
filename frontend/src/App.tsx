@@ -1,3 +1,4 @@
+import "../.winglibs/wing-env.d.ts"
 import { useState, useEffect } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
@@ -46,7 +47,7 @@ function App() {
       </div>
       <h1>{window.wing.env.TITLE}</h1>
       <div className="card">
-        <button onClick={incrementCount}>
+        <button key={count} onClick={incrementCount}>
           count is {count}
         </button>
         <p>
