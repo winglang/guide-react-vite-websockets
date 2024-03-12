@@ -30,7 +30,3 @@ new vite.Vite(
     API_URL: api.url,
   }
 );
-
-new cloud.Function(inflight () => {
-  log(broadcaster.url);
-}) as "show broadcaster url";
